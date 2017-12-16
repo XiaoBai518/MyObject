@@ -46,8 +46,8 @@
                         <a href="index.jsp">N-AIR</a>
                     </div>
                     <div class="login-bars">
-                        <a class="btn btn-default log-bar" href="register.jsp" role="button">注册</a>
-                        <a class="btn btn-default log-bar" href="user/login" role="button">登录</a>
+                          <a class="btn btn-default log-bar" href="${ctx }/user/registe" role="button">注册</a>
+                        <a class="btn btn-default log-bar" href="${ctx }/user/login" role="button">登录</a>
                         <div class="cart box_1">
                             <p><a href="${ctx }/product/checkout" class="simpleCart_empty">购物车</a></p>
                             <div class="clearfix"> </div>

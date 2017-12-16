@@ -90,7 +90,7 @@
            <div class="container">
                 <div class="header-top">
                     <div class="logo">
-                        <a href="index.jsp">N-AIR</a>
+                        <a href="index.html">N-AIR</a>
                     </div>
                          <div id="user" style="width:160px;position: absolute;top: 10%;right: 10%;text-align:left;">
                         <span  style="font-family: SimHei;font-size:15px">
@@ -107,7 +107,7 @@
                         </span>
                      </div>
                     <div class="login-bars">
-                        <a class="btn btn-default log-bar" href="${ctx }/user/registe" role="button">注册</a>
+                       <a class="btn btn-default log-bar" href="register.jsp" role="button">注册</a>
                         <a class="btn btn-default log-bar" href="${ctx }/user/login" role="button">登录</a>
                         <div class="cart box_1">
                             <p><a href="${ctx }/product/checkout" class="simpleCart_empty" onclick="return aclick()">购物车</a></p>

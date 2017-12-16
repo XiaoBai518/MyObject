@@ -108,8 +108,8 @@
                         </span>
                      </div>
                     <div class="login-bars">
-                        <a class="btn btn-default log-bar" href="register.html" role="button">注册</a>
-                        <a class="btn btn-default log-bar" href="signup.html" role="button">登录</a>
+                        <a class="btn btn-default log-bar" href="register.jsp" role="button">注册</a>
+                        <a class="btn btn-default log-bar" href="${ctx }/user/login" role="button">登录</a>
                         <div class="cart box_1">
                             <p><a href="${ctx }/product/checkout" class="simpleCart_empty">购物车</a></p>
                             <div class="clearfix"> </div>
